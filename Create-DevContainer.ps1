@@ -286,6 +286,7 @@ function Get-HashtableValues {
 #endregion Functions
 
 #region Script
+Write-Host "Test"
 if (-not (Test-IsAdmin)) {
     Write-Host "This script requires administrative privileges. Please run as administrator." -ForegroundColor Red
     exit 1
